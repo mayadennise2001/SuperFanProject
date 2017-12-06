@@ -1,0 +1,327 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* Eric(Instructor)helped me with layout and responsiveness of my webpage */
+.wide-col {
+	display: flex;
+	height: 100vh;
+	width: calc(100vw/2);
+}
+.narrow-col1 {
+	height: 100vh;
+	width: calc(100vw/4);
+}
+.narrow-col2{
+	height: 100vh;
+	width: calc(100vw/4);
+}
+.main{
+	height: 45%;
+	width: calc(100%/2);
+	background-color: white;
+	margin-left: 250px;
+	margin-top: 20px;
+	display: block;
+	content:url(images/domonique.png)
+}
+.peach{
+	content: url("images/domonique2.jpg");
+}
+.child{
+	height: 310px;
+	width: 300px;
+	display: flex;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.child2{
+	height: 310px;
+	width: 300px;
+	display: flex;
+	margin-left: 250px;
+	margin-top: 5px;
+}
+.child3{
+	height: 310px;
+	width: 300px;
+	display: flex;
+	margin-left: 250px;
+	margin-top:10px;
+}
+.childA{
+	height: 310px;
+	width: 300px;
+	display: flex;
+	margin-left: 25px;
+	margin-top:10px;
+}
+.childB{
+	height: 310px;
+	width: 300px;
+	background-color: black;
+	display: flex;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.childC{
+	height: 310px;
+	width: 300px;
+	background-color: black;
+	display: flex;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.invisible{
+	height: 20%;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 250px;
+}
+.m{
+	height: 44px;
+	width: 40px;
+	background-color: #FFD4AC;
+	margin: 7px;
+	cursor: pointer;
+}
+.m2{
+	height: 44px;
+	width: 40px;
+	background-color: #D6AC83;
+	margin: 7px;
+	cursor: pointer;
+}
+.m3{
+	height: 44px;
+	width: 40px;
+	background-color: #A0522D;
+	margin: 7px;
+	cursor: pointer;
+}
+.m4{
+	height: 44px;
+	width: 40px;
+	background-color: #8B4513;
+	margin: 7px;
+	cursor: pointer;
+}
+.m5{
+	height: 44px;
+	width: 40px;
+	background-color: #CD6155;
+	margin: 7px;
+	cursor: pointer;
+}
+.m6{
+	height: 44px;
+	width: 40px;
+	background-color: #641E16;
+	margin: 7px;
+	cursor: pointer;
+}
+.m7{
+	height: 44px;
+	width: 40px;
+	background-color: #82172d;
+	margin: 7px;
+	cursor: pointer;
+}
+.m8{
+	height: 44px;
+	width: 40px;
+	background-color: #FF3349;
+	margin: 7px;
+	cursor: pointer;
+}
+.red{
+	background-color: #C79C9C;
+}
+.green{
+	background-color: #C79C9C;
+}
+.blue{
+	background-color: #C79C9C;
+}
+.center-vertical{
+	display: block;
+	justify-content: center;
+	
+}
+.center-horizontal{
+	display: flex;
+	align-items: center;
+}
+.center-vertical2{
+	display: block;
+	justify-content: center;
+	
+}
+.center-horizontal2{
+	display: block;
+	align-items: center;
+}
+@media screen and (max-width: 850px) {
+.wide-col {
+	display: flex;
+	height: 50vh;
+	width: 100vw;
+	order: 0;
+}
+.narrow-col1 {
+	height: 50vh;
+	width: 50vw;
+	order: 1;
+}
+.narrow-col2 {
+	height: 50vh;
+	width: 50vw;
+	order: 2;
+}
+.main{
+	height: 50%;
+	width: 50%;
+	background-color: white;
+	margin-left: 150px;
+	margin-top: 20px;
+	display: block;
+	content:url(images/domonique.png);
+}
+.peach{
+	content: url("images/domonique2.jpg");
+}
+.child{
+	height: 250px;
+	width: 200px;
+	background-color: black;
+	display: flex;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.child2{
+	height: 250px;
+	width: 200px;
+	background-color: black;
+	display: flex;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.child3{
+	height: 250px;
+	width: 200px;
+	background-color: black;
+	display: none;
+	margin-left: 50px;
+	margin-top:10px;
+}
+.childA{
+	height: 250px;
+	width: 200px;
+	background-color: black;
+	display: flex;
+	margin-left: 35px;
+	margin-top:10px;
+}
+.childB{
+	height: 250px;
+	width: 200px;
+	background-color: black;
+	display: flex;
+	margin-left: 35px;
+	margin-top: 10px;
+}
+.childC{
+	height: 250px;
+	width: 200px;
+	background-color: black;
+	display: none;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.invisible{
+	height: 20%;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 150px;
+}
+.m{
+	height: 44px;
+	width: 40px;
+	background-color: #FFD4AC;
+	margin: 7px;
+}
+.m2{
+	height: 44px;
+	width: 40px;
+	background-color: #D6AC83;
+	margin: 7px;
+}
+.m3{
+	height: 44px;
+	width: 40px;
+	background-color: #A0522D;
+	margin: 7px;
+}
+.m4{
+	height: 44px;
+	width: 40px;
+	background-color: #8B4513;
+	margin: 7px;
+}
+.m5{
+	height: 44px;
+	width: 40px;
+	background-color: #CD6155;
+	margin: 7px;
+}
+.m6{
+	height: 44px;
+	width: 40px;
+	background-color: #641E16;
+	margin: 7px;
+}
+.m7{
+	height: 44px;
+	width: 40px;
+	background-color: #82172d;
+	margin: 7px;
+}
+.m8{
+	height: 44px;
+	width: 40px;
+	background-color: #FF3349;
+	margin: 7px;
+}
+.red{
+	background-color: #C79C9C;
+}
+.green{
+	background-color: #C79C9C;
+}
+.blue{
+	background-color: #C79C9C;
+}
+.center-vertical{
+	display: block;
+	justify-content: center;
+	
+}
+.center-horizontal{
+	display: flex;
+	align-items: center;
+}
+.center-vertical2{
+	display: block;
+	justify-content: center;
+	
+}
+.center-horizontal2{
+	display: block;
+	align-items: center;
+}
+}
