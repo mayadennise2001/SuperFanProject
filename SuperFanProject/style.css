@@ -26,7 +26,6 @@ body {
 	margin-left: 250px;
 	margin-top: 20px;
 	display: block;
-	content:url(images/domonique.png)
 }
 .peach{
 	content: url("images/domonique2.jpg");
@@ -62,7 +61,6 @@ body {
 .childB{
 	height: 310px;
 	width: 300px;
-	background-color: black;
 	display: flex;
 	margin-left: 25px;
 	margin-top: 10px;
@@ -70,7 +68,6 @@ body {
 .childC{
 	height: 310px;
 	width: 300px;
-	background-color: black;
 	display: flex;
 	margin-left: 25px;
 	margin-top: 10px;
@@ -86,56 +83,61 @@ body {
 	height: 44px;
 	width: 40px;
 	background-color: #FFD4AC;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
+}
+.lane{
+	content:url("images/Lane2.png");
 }
 .m2{
 	height: 44px;
 	width: 40px;
 	background-color: #D6AC83;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
+}
+.destiny{
+	content: url("images/destiny.png");
 }
 .m3{
 	height: 44px;
 	width: 40px;
 	background-color: #A0522D;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
 }
-.m4{
-	height: 44px;
-	width: 40px;
-	background-color: #8B4513;
-	margin: 7px;
-	cursor: pointer;
+.lightbrown{
+	content:url("images/domonique.png");
 }
 .m5{
 	height: 44px;
 	width: 40px;
 	background-color: #CD6155;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
 }
 .m6{
 	height: 44px;
 	width: 40px;
 	background-color: #641E16;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
+}
+.lane2{
+	content: url("images/Lane.png");
 }
 .m7{
 	height: 44px;
 	width: 40px;
 	background-color: #82172d;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
 }
 .m8{
 	height: 44px;
 	width: 40px;
 	background-color: #FF3349;
-	margin: 7px;
+	margin: 5px;
 	cursor: pointer;
 }
 .red{
@@ -189,7 +191,6 @@ body {
 	margin-left: 150px;
 	margin-top: 20px;
 	display: block;
-	content:url(images/domonique.png);
 }
 .peach{
 	content: url("images/domonique2.jpg");
@@ -197,39 +198,34 @@ body {
 .child{
 	height: 250px;
 	width: 200px;
-	background-color: black;
 	display: flex;
 	margin-left: 40px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 .child2{
 	height: 250px;
 	width: 200px;
-	background-color: black;
 	display: flex;
 	margin-left: 40px;
-	margin-top: 10px;
+	margin-top: 1px;
 }
 .child3{
 	height: 250px;
 	width: 200px;
-	background-color: black;
 	display: none;
 	margin-left: 50px;
-	margin-top:10px;
+	margin-top: 5px;
 }
 .childA{
 	height: 250px;
 	width: 200px;
-	background-color: black;
 	display: flex;
 	margin-left: 35px;
-	margin-top:10px;
+	margin-top: 5px;
 }
 .childB{
 	height: 250px;
 	width: 200px;
-	background-color: black;
 	display: flex;
 	margin-left: 35px;
 	margin-top: 10px;
@@ -237,7 +233,6 @@ body {
 .childC{
 	height: 250px;
 	width: 200px;
-	background-color: black;
 	display: none;
 	margin-left: 50px;
 	margin-top: 10px;
@@ -255,6 +250,9 @@ body {
 	background-color: #FFD4AC;
 	margin: 7px;
 }
+.lane{
+	content:url("images/Lane2.png");
+}
 .m2{
 	height: 44px;
 	width: 40px;
@@ -266,6 +264,9 @@ body {
 	width: 40px;
 	background-color: #A0522D;
 	margin: 7px;
+}
+.lightbrown{
+	content:url("images/domonique.png");
 }
 .m4{
 	height: 44px;
@@ -284,6 +285,9 @@ body {
 	width: 40px;
 	background-color: #641E16;
 	margin: 7px;
+}
+.lane2{
+	content: url("images/Lane.png");
 }
 .m7{
 	height: 44px;
