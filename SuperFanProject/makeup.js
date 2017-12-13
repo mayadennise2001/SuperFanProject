@@ -1,3 +1,8 @@
+/*
+The code below will change the main div, which is identified as main. when you click on one of the divs 
+that is indicated to click on with the cursor, it will toggle one of the images, depending
+on which one you click, and it will remove the rest of the images so they all don't show up at the same time. 
+*/
 function m5(elem){
 	document.getElementById("main").classList.remove("domo3");
 	document.getElementById("main").classList.remove("des5");
