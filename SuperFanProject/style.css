@@ -110,6 +110,12 @@ body {
 .lightbrown{
 	content:url("images/domonique.png");
 }
+.m4{
+	height: 44px;
+	width: 40px;
+	background-color: #8B4513;
+	margin: 7px;
+}
 .m5{
 	height: 44px;
 	width: 40px;
